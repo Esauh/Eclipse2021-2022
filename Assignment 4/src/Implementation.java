@@ -30,7 +30,7 @@ set2.addItem(7);
   
 System.out.println("Set 1: "+set1.getlist());
 System.out.println("Set 2: "+set2.getlist());
-System.out.println("Are the sets equal (True/False)?: "+set1.equals(set2));
+System.out.println("Are the sets equal (true/false)?: "+set1.equals(set2));
 System.out.println("Largest element in Set1: "+set1.largestelement());
 System.out.println("Smallest element in Set2: "+set2.smallestelement());  
 IntegerSet setu= set1.union(set2);

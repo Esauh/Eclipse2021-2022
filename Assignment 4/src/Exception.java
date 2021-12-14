@@ -1,3 +1,0 @@
-class Listemptyexception extends Exception {
-
-}
