@@ -1,3 +1,4 @@
+package ord.howard.edu.lsp.assignment5;
 import java.util.ArrayList;
 
 public class JunitTesting {

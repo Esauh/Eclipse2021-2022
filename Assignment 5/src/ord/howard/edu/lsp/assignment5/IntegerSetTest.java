@@ -1,4 +1,8 @@
-import java.util.*;
+package ord.howard.edu.lsp.assignment5;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Program for IntergetSet Assignment
@@ -6,17 +10,17 @@ import java.util.*;
  *
  */
 
-public class IntegerSet{
+public class IntegerSetTest{
   
    /**
  *  creates new array list with type interger to be utilized
  */
-ArrayList<Integer> list= new ArrayList<>();
+private ArrayList<Integer> list= new ArrayList<>();
   
    /**
  * @param list passed in the array list and initializes it 
  */
-public IntegerSet(ArrayList<Integer> list) {
+public IntegerSetTest(ArrayList<Integer> list) {
        this.list=list;
    }
   

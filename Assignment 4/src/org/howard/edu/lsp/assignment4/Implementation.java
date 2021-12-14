@@ -1,3 +1,4 @@
+package org.howard.edu.lsp.assignment4;
 import java.util.*;
 
 public class Implementation {
@@ -33,10 +34,10 @@ System.out.println("Set 2: "+set2.getlist());
 System.out.println("Are the sets equal (true/false)?: "+set1.equals(set2));
 System.out.println("Largest element in Set1: "+set1.largestelement());
 System.out.println("Smallest element in Set2: "+set2.smallestelement());  
-IntegerSet setx= set1.union(set2);
-System.out.println("Union: "+setx.getlist() );
-IntegerSet sety= set1.intersection(set2);
-System.out.println("Intersection: "+sety.getlist() );
+IntegerSet setu= set1.union(set2);
+System.out.println("Union: "+setu.getlist() );
+IntegerSet seti= set1.intersection(set2);
+System.out.println("Intersection: "+seti.getlist() );
   
 
       

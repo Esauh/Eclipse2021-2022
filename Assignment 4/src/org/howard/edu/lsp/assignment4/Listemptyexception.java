@@ -1,3 +1,4 @@
+package org.howard.edu.lsp.assignment4;
 public class Listemptyexception extends Exception {
 	/**
 	 * Created exception class which is utilized when lists are empty

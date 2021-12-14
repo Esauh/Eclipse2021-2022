@@ -1,17 +1,16 @@
+package ord.howard.edu.lsp.assignment5;
 import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
-class smallestelementTest {
+class getlistTest {
 
 	@Test
 	public void test() {
 		JunitTesting test = new JunitTesting();
-		ArrayList<Integer> list1= new ArrayList<>();
-		int output = test.smallestelement(list1);
+		int output = test.getlist();
 		assertEquals(1, output);
 	}
+
 
 }
